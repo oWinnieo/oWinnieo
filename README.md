@@ -56,7 +56,7 @@ TA 从前端与算法出发，后来捡起 Python、Godot、PixiJS 和一整套 
 | [**piano**](https://github.com/oWinnieo/piano) | 一个网页端 88 键电子钢琴实验，围绕 PixiJS 舞台、实时演奏、MIDI / MusicXML 导入与自动播放展开。 |
 | [**Anchor**](https://github.com/oWinnieo/Anchor) | CiGA Game Jam 2026 的 Godot 协作项目：在一艘抛锚的船上修复现实与理智的双重锚点。 |
 
-### 🧪 走过的支线
+### 🧪 作品
 
 | 项目 | 记录 |
 |---|---|

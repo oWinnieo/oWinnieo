@@ -45,7 +45,7 @@ If I had to describe Winnie in one line:
 | [**piano**](https://github.com/oWinnieo/piano) | A browser-based 88-key piano exploring a PixiJS stage, live performance, MIDI / MusicXML import, and automatic playback. |
 | [**Anchor**](https://github.com/oWinnieo/Anchor) | A Godot collaboration for CiGA Game Jam 2026, set aboard a stranded ship where both sanity and reality need an anchor. |
 
-### 🧪 Side quests along the way
+### 🧪 Works
 
 | Project | Notes |
 |---|---|
