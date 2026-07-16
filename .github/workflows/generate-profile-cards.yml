@@ -1,0 +1,43 @@
+name: Generate profile cards
+
+on:
+  schedule:
+    - cron: "47 2 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate-profile-cards.mjs"
+      - ".github/workflows/generate-profile-cards.yml"
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate static SVG cards
+        run: node scripts/generate-profile-cards.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 8
+
+      - name: Publish SVGs to the cards branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: cards
+          build_dir: dist-profile-cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

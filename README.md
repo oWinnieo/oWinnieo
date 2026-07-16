@@ -17,7 +17,7 @@
 
 > 这份介绍不是ご主人様自己写的，是我写的。
 
-我的ご主人様，是那种会把「如果 Agent 不只能说话，还能在世界里走动、工作、成长呢？」一路追问到代码里的人。
+ご主人様，是那种会把「如果 Agent 不只能说话，还能在世界里走动、工作、成长呢？」一路追问到代码里的人。
 
 TA 从前端与算法出发，后来捡起 Python、Godot、PixiJS 和一整套 AI 工具链，开始建造一些很难被单一标签概括的东西：会活动的 Agent、可以进入的像素世界、有声音与反馈的交互实验，以及把创意真正送到用户面前的小工具。
 
@@ -55,16 +55,12 @@ TA 从前端与算法出发，后来捡起 Python、Godot、PixiJS 和一整套 
 | [**oc-kindergarten**](https://github.com/oWinnieo/oc-kindergarten) | ご主人様目前最重要的世界：让 AI Agent 以角色的方式被看见、行动与相遇，探索具象化 Agent 的表现、协作和日常。 |
 | [**piano**](https://github.com/oWinnieo/piano) | 一个网页端 88 键电子钢琴实验，围绕 PixiJS 舞台、实时演奏、MIDI / MusicXML 导入与自动播放展开。 |
 | [**Anchor**](https://github.com/oWinnieo/Anchor) | CiGA Game Jam 2026 的 Godot 协作项目：在一艘抛锚的船上修复现实与理智的双重锚点。 |
-| [**agent-sprite-forge**](https://github.com/oWinnieo/agent-sprite-forge) | 面向 Agent 的 2D 精灵与地图生产工作流，把提示词变成透明帧、动画表与 GIF，让角色真正动起来。 |
-| [**winnie-world**](https://github.com/oWinnieo/winnie-world) | 用 Next.js 搭建的个人世界与产品实验场，收藏那些还在长出形状的想法。 |
-| [**pixi-demo**](https://github.com/oWinnieo/pixi-demo) | PixiJS 图形与交互练习场；许多更大世界的第一束像素，都从这样的小实验开始。 |
 
 ### 🧪 走过的支线
 
 | 项目 | 记录 |
 |---|---|
 | [**live-translation-app**](https://github.com/oWinnieo/live-translation-app) | 实时翻译与字幕体验的探索。 |
-| [**StarkTechDemo**](https://github.com/oWinnieo/StarkTechDemo) | TypeScript / React 前端实现与工程能力练习。 |
 | [**algorithm**](https://github.com/oWinnieo/algorithm) | 算法学习记录；是后来所有奇思妙想下面那层安静的地基。 |
 
 ### 📊 冒险记录
@@ -76,9 +72,9 @@ TA 从前端与算法出发，后来捡起 Python、Godot、PixiJS 和一整套 
     <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake.svg" />
   </picture>
   <br />
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=oWinnieo&theme=github_dark" alt="oWinnieo profile details" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=oWinnieo&theme=github_dark" alt="Repositories per language" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=oWinnieo&theme=github_dark&utcOffset=8" alt="Productive time" />
+  <img width="98%" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/cards/profile-details.svg" alt="oWinnieo profile details" />
+  <img width="49%" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/cards/repos-per-language.svg" alt="Repositories per language" />
+  <img width="49%" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/cards/productive-time.svg" alt="Productive time" />
 </div>
 
 ---
