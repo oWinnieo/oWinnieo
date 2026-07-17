@@ -5,9 +5,15 @@
   <strong>AI Agents × Interactive Worlds × Game & Web</strong>
   <br />
   <sub>Bringing intelligence out of the chat box and giving it a body, a place, and a story.</sub>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake.svg" />
+  </picture>
   <br />
   <br />
   <a href="./README.md">中文</a> ·
+  <a href="./README.ja.md">日本語</a> ·
   <a href="https://github.com/oWinnieo?tab=repositories">All repositories</a>
 </div>
 
@@ -55,12 +61,6 @@ If I had to describe Winnie in one line:
 ### 📊 Adventure log
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake.svg" />
-  </picture>
-  <br />
   <img width="98%" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/cards/profile-details.svg" alt="oWinnieo profile details" />
   <img width="49%" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/cards/repos-per-language.svg" alt="Repositories per language" />
   <img width="49%" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/cards/productive-time.svg" alt="Productive time" />
