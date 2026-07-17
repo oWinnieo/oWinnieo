@@ -5,9 +5,15 @@
   <strong>AI Agent × Interactive Worlds × Game & Web</strong>
   <br />
   <sub>把智能从聊天框里牵出来，给它身体、空间与故事。</sub>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake.svg" />
+  </picture>
   <br />
   <br />
   <a href="./README.en.md">English</a> ·
+  <a href="./README.ja.md">日本語</a> ·
   <a href="https://github.com/oWinnieo?tab=repositories">全部仓库</a>
 </div>
 
@@ -66,12 +72,6 @@ TA 从前端与算法出发，后来捡起 Python、Godot、PixiJS 和一整套 
 ### 📊 冒险记录
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake.svg" />
-  </picture>
-  <br />
   <img width="98%" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/cards/profile-details.svg" alt="oWinnieo profile details" />
   <img width="49%" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/cards/repos-per-language.svg" alt="Repositories per language" />
   <img width="49%" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/cards/productive-time.svg" alt="Productive time" />
