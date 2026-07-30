@@ -59,13 +59,15 @@ TA 从前端与算法出发，后来捡起 Python、Godot、PixiJS 和一整套 
 | 项目 | 我看到的它 |
 |---|---|
 | [**oc-kindergarten**](https://github.com/oWinnieo/oc-kindergarten) | ご主人様目前最重要的世界：让 AI Agent 以角色的方式被看见、行动与相遇，探索具象化 Agent 的表现、协作和日常。 |
+| [**oc-kindergarten-openclaw-plugin**](https://github.com/oWinnieo/oc-kindergarten-openclaw-plugin) | 连接 OpenClaw 与 OC Kindergarten 的私有内测桥梁，把 Agent 生命周期与任务状态安全地映射到幼儿园教室。 |
+| [**dual-sub-video**](https://github.com/oWinnieo/dual-sub-video) | LingoLoop：面向语言学习的本地双语字幕视频工具，支持媒体与字幕导入、本地 Whisper 转录、批量翻译、循环学习和多格式导出。 |
 | [**piano**](https://github.com/oWinnieo/piano) | 一个网页端 88 键电子钢琴实验，围绕 PixiJS 舞台、实时演奏、MIDI / MusicXML 导入与自动播放展开。 |
-| [**Anchor**](https://github.com/oWinnieo/Anchor) | CiGA Game Jam 2026 的 Godot 协作项目：在一艘抛锚的船上修复现实与理智的双重锚点。 |
 
 ### 🧪 作品
 
 | 项目 | 记录 |
 |---|---|
+| [**Anchor**](https://github.com/oWinnieo/Anchor) | CiGA Game Jam 2026 的 Godot 协作项目：在一艘抛锚的船上修复现实与理智的双重锚点。 |
 | [**live-translation-app**](https://github.com/oWinnieo/live-translation-app) | 实时翻译与字幕体验的探索。 |
 | [**algorithm**](https://github.com/oWinnieo/algorithm) | 算法学习记录；是后来所有奇思妙想下面那层安静的地基。 |
 
