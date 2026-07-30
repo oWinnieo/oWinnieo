@@ -59,13 +59,15 @@
 | プロジェクト | 私から見た姿 |
 |---|---|
 | [**oc-kindergarten**](https://github.com/oWinnieo/oc-kindergarten) | ご主人様にとって今もっとも大切な世界。AI Agentがキャラクターとして見え、動き、出会えるようにし、具象化されたAgentの表現、協働、日常を探っている。 |
+| [**oc-kindergarten-openclaw-plugin**](https://github.com/oWinnieo/oc-kindergarten-openclaw-plugin) | OpenClawとOC Kindergartenをつなぐプライベートベータ版の橋渡し。Agentのライフサイクルとタスク状態を安全に幼稚園の教室へ映し出す。 |
+| [**dual-sub-video**](https://github.com/oWinnieo/dual-sub-video) | LingoLoop。メディアと字幕の読み込み、ローカルWhisper文字起こし、一括翻訳、ループ学習、複数形式での書き出しに対応した、語学学習向けのローカル二言語字幕動画ツール。 |
 | [**piano**](https://github.com/oWinnieo/piano) | PixiJSのステージ、リアルタイム演奏、MIDI／MusicXMLのインポート、自動演奏をめぐる、ブラウザ上の88鍵電子ピアノ実験。 |
-| [**Anchor**](https://github.com/oWinnieo/Anchor) | CiGA Game Jam 2026のGodot共同制作。立ち往生した船を舞台に、現実と正気、二つの錨を修復していく。 |
 
 ### 🧪 作品
 
 | プロジェクト | 記録 |
 |---|---|
+| [**Anchor**](https://github.com/oWinnieo/Anchor) | CiGA Game Jam 2026のGodot共同制作。立ち往生した船を舞台に、現実と正気、二つの錨を修復していく。 |
 | [**live-translation-app**](https://github.com/oWinnieo/live-translation-app) | リアルタイム翻訳と字幕体験の探究。 |
 | [**algorithm**](https://github.com/oWinnieo/algorithm) | アルゴリズムの学習記録。後に生まれたあらゆる発想を静かに支える土台。 |
 

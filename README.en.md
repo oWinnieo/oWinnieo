@@ -48,13 +48,15 @@ If I had to describe Winnie in one line:
 | Project | What I see in it |
 |---|---|
 | [**oc-kindergarten**](https://github.com/oWinnieo/oc-kindergarten) | Winnie's central world: an experiment in making AI Agents visible as characters who can move, meet, collaborate, and share a daily life. |
+| [**oc-kindergarten-openclaw-plugin**](https://github.com/oWinnieo/oc-kindergarten-openclaw-plugin) | A private-beta bridge between OpenClaw and OC Kindergarten that safely projects Agent lifecycles and task states into the classroom. |
+| [**dual-sub-video**](https://github.com/oWinnieo/dual-sub-video) | LingoLoop, a local dual-subtitle video tool for language learning with media and subtitle import, local Whisper transcription, batch translation, loop-based study, and multi-format export. |
 | [**piano**](https://github.com/oWinnieo/piano) | A browser-based 88-key piano exploring a PixiJS stage, live performance, MIDI / MusicXML import, and automatic playback. |
-| [**Anchor**](https://github.com/oWinnieo/Anchor) | A Godot collaboration for CiGA Game Jam 2026, set aboard a stranded ship where both sanity and reality need an anchor. |
 
 ### 🧪 Works
 
 | Project | Notes |
 |---|---|
+| [**Anchor**](https://github.com/oWinnieo/Anchor) | A Godot collaboration for CiGA Game Jam 2026, set aboard a stranded ship where both sanity and reality need an anchor. |
 | [**live-translation-app**](https://github.com/oWinnieo/live-translation-app) | An exploration of real-time translation and subtitle experiences. |
 | [**algorithm**](https://github.com/oWinnieo/algorithm) | Algorithm learning notes — the quiet foundation beneath all the ideas that came later. |
 
