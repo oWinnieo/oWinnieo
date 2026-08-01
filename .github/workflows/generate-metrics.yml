@@ -36,20 +36,13 @@ jobs:
           config_timezone: Asia/Singapore
           config_display: large
           config_animations: yes
-          config_order: isocalendar, languages, activity, repositories
+          config_order: languages, repositories
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
-          plugin_activity: yes
-          plugin_activity_limit: 6
-          plugin_activity_days: 0
-          plugin_activity_visibility: public
-          plugin_activity_filter: push, pr, issue, review, fork, release
           plugin_repositories: yes
           plugin_repositories_featured: >-
             oWinnieo/oc-kindergarten,
@@ -58,18 +51,36 @@ jobs:
             oWinnieo/Anchor
           plugin_repositories_forks: yes
           extras_css: |
-            :root {
-              --color-calendar-graph-day-bg: #21262d;
-              --color-calendar-graph-day-L1-bg: #2d4b73;
-              --color-calendar-graph-day-L2-bg: #5865a8;
-              --color-calendar-graph-day-L3-bg: #9b72cf;
-              --color-calendar-graph-day-L4-bg: #e06fae;
-            }
             h1, h2, h3, .repository .name span:first-child, .blue {
               color: #8bd5ff !important;
             }
             .field svg {
               fill: #a98cff;
+            }
+
+      - name: Generate the compact contribution calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: github-metrics-calendar.svg
+          template: classic
+          base: ""
+          config_timezone: Asia/Singapore
+          config_display: regular
+          config_animations: yes
+          repositories_forks: yes
+          repositories_affiliations: owner, collaborator, organization_member
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          extras_css: |
+            :root {
+              --color-calendar-graph-day-bg: #ebedf0;
+              --color-calendar-graph-day-L1-bg: #9be9a8;
+              --color-calendar-graph-day-L2-bg: #40c463;
+              --color-calendar-graph-day-L3-bg: #30a14e;
+              --color-calendar-graph-day-L4-bg: #216e39;
             }
 
       - name: Check out the refreshed default branch
@@ -89,7 +100,7 @@ jobs:
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           PROFILE_USERNAME: ${{ github.repository_owner }}
-          CONTRIBUTION_WEEKS: 16
+          CONTRIBUTION_WEEKS: 8
 
       - name: Publish README index updates
         run: |

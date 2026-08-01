@@ -15,4 +15,11 @@ Privacy rules enforced by `scripts/generate-contribution-index.mjs`:
 - All private repositories are merged into a single `private repo` row.
 - Private repository names and URLs are never written to the README or logs.
 
-`lowlighter/metrics` is used for the main visual. The separate HTML contribution index exists because links embedded inside an SVG loaded through an `<img>` element are not interactive on a GitHub profile README.
+`lowlighter/metrics` generates two visuals:
+
+- `github-metrics.svg` is the full-width overview for languages, account metadata, and featured repositories.
+- `github-metrics-calendar.svg` is a compact standalone full-year contribution calendar.
+
+The separate eight-week HTML contribution index exists because links embedded inside an SVG loaded through an `<img>` element are not interactive on a GitHub profile README.
+
+The upstream Recent activity plugin is intentionally disabled. GitHub's current public Events payload omits `payload.commits` from `PushEvent`, while the plugin still calls `commits.filter(...)`; Metrics therefore renders `Unexpected error`. The clickable fork-aware index supplies the recent commit view until the upstream plugin handles the new payload safely.
