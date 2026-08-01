@@ -26,8 +26,6 @@
 
 ### 🗓️ Contributions calendar
 
-<p>全年贡献地形被拆成独立卡片并缩小展示：保留长期节奏，同时不挤占项目与文字内容的阅读空间。</p>
-
 <div align="center">
   <a href="https://github.com/oWinnieo?tab=overview&amp;from=2026-01-01&amp;to=2026-12-31">
     <img width="68%" src="./github-metrics-calendar.svg" alt="oWinnieo 全年立体贡献日历" />

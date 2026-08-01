@@ -26,8 +26,6 @@
 
 ### 🗓️ Contributions calendar
 
-<p>年間のコントリビューション地形を独立した小さめのカードに分離した。長期的なリズムを残しながら、下のプロジェクトと文章を読みやすくしている。</p>
-
 <div align="center">
   <a href="https://github.com/oWinnieo?tab=overview&amp;from=2026-01-01&amp;to=2026-12-31">
     <img width="68%" src="./github-metrics-calendar.svg" alt="oWinnieo 年間立体コントリビューションカレンダー" />

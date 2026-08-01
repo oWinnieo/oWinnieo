@@ -26,8 +26,6 @@
 
 ### 🗓️ Contributions calendar
 
-<p>The full-year contribution landscape now lives in a smaller standalone card: the long-term rhythm remains visible without crowding the projects and narrative below.</p>
-
 <div align="center">
   <a href="https://github.com/oWinnieo?tab=overview&amp;from=2026-01-01&amp;to=2026-12-31">
     <img width="68%" src="./github-metrics-calendar.svg" alt="oWinnieo full-year isometric contribution calendar" />
