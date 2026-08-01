@@ -26,14 +26,14 @@
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="362.6428128875486" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="362.6428128875486" y="0" width="247.44827614284623" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="610.0910890303949" y="0" width="193.1101919505477" height="8" fill="#1797c0"/>
-                    <rect mask="url(#languages-bar)" x="803.2012809809426" y="0" width="50.39886555823605" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="853.6001465391786" y="0" width="29.326499824166483" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="882.9266463633452" y="0" width="15.305034781758174" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="898.2316811451033" y="0" width="15.13157831123244" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="913.3632594563356" y="0" width="6.63674054366438" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="362.64257857286674" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="362.64257857286674" y="0" width="247.4483801708653" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="610.0909587437321" y="0" width="193.11027313466846" height="8" fill="#1797c0"/>
+                    <rect mask="url(#languages-bar)" x="803.2012318784004" y="0" width="50.39888674607469" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="853.6001186244752" y="0" width="29.32651215311753" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="882.9266307775927" y="0" width="15.305041216042039" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="898.2316719936348" y="0" width="15.131584672594668" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="913.3632566662294" y="0" width="6.636743333770589" height="8" fill="#3572A5"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -160,7 +160,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>oWinnieo/oc-kindergarten</span>
-                                        <span>updated 3 days ago</span>
+                                        <span>created 20 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Production repository for oc-kindergarten.</div>
@@ -207,7 +207,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>oWinnieo/dual-sub-video</span>
-                                        <span>updated 18 hours ago</span>
+                                        <span>created 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">dual sub for videos either learning or with someone who can't understand your lingo</div>
@@ -254,7 +254,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>oWinnieo/piano</span>
-                                        <span>updated 1 month ago</span>
+                                        <span>created Jun 12 2026</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -302,7 +302,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>oWinnieo/Anchor</span>
-                                        <span>updated 19 days ago</span>
+                                        <span>created 28 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">For CiGA Game Jam 2026</div>
@@ -478,7 +478,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 1 Aug 2026, 17:57:44 (timezone Asia/Singapore) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 1 Aug 2026, 18:18:38 (timezone Asia/Singapore) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
