@@ -1,80 +1,194 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">oWinnieo — little worlds for humans and agents</title>
-  <desc id="desc">A midnight pixel-inspired banner with a small AI companion, stars, and glowing interface elements.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">oWinnieo — world-builder for humans and AI agents</title>
+  <desc id="desc">A midnight interface banner featuring a friendly workspace AI, a luminous identity title, and a small living pixel world.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1021" />
-      <stop offset="0.48" stop-color="#15152d" />
-      <stop offset="1" stop-color="#21143a" />
+      <stop offset="0" stop-color="#070b18" />
+      <stop offset=".48" stop-color="#11152b" />
+      <stop offset="1" stop-color="#24143a" />
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#8bd5ff" stop-opacity=".34" />
-      <stop offset="1" stop-color="#8bd5ff" stop-opacity="0" />
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#76dcff" />
+      <stop offset=".5" stop-color="#b7a0ff" />
+      <stop offset="1" stop-color="#ff7fbd" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#263455" stop-opacity=".86" />
+      <stop offset="1" stop-color="#121426" stop-opacity=".92" />
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3d4c72" />
+      <stop offset="1" stop-color="#232944" />
+    </linearGradient>
+    <radialGradient id="cyanAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#76dcff" stop-opacity=".22" />
+      <stop offset="1" stop-color="#76dcff" stop-opacity="0" />
     </radialGradient>
-    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8bd5ff" />
-      <stop offset=".52" stop-color="#c8b6ff" />
-      <stop offset="1" stop-color="#ff8ec7" />
-    </linearGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#d9e7ff" stroke-opacity=".045" />
+    <radialGradient id="pinkAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff7fbd" stop-opacity=".18" />
+      <stop offset="1" stop-color="#ff7fbd" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#cdd8ff" stroke-opacity=".04" />
+      <circle cx="1" cy="1" r=".75" fill="#cdd8ff" opacity=".08" />
     </pattern>
-    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="7" result="blur" />
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
       <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
     </filter>
-    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="2.5" result="blur" />
-      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#02040b" flood-opacity=".62" />
     </filter>
+    <clipPath id="frameClip">
+      <rect width="1200" height="360" rx="28" />
+    </clipPath>
   </defs>
 
-  <rect width="1200" height="320" rx="24" fill="url(#bg)" />
-  <rect width="1200" height="320" rx="24" fill="url(#grid)" />
-  <ellipse cx="602" cy="146" rx="395" ry="225" fill="url(#glow)" />
+  <g clip-path="url(#frameClip)">
+    <rect width="1200" height="360" fill="url(#bg)" />
+    <rect width="1200" height="360" fill="url(#grid)" />
+    <ellipse cx="306" cy="164" rx="300" ry="260" fill="url(#cyanAura)" />
+    <ellipse cx="1008" cy="194" rx="320" ry="290" fill="url(#pinkAura)" />
+    <path d="M0 320C240 284 428 346 650 316s355-22 550 9v35H0z" fill="#080b17" opacity=".58" />
+    <path d="M0 323C238 288 430 349 651 319s354-22 549 8" fill="none" stroke="url(#accent)" stroke-opacity=".32" />
 
-  <g fill="#d9e7ff">
-    <rect x="58" y="54" width="3" height="3" opacity=".75" />
-    <rect x="112" y="105" width="2" height="2" opacity=".45" />
-    <rect x="190" y="39" width="4" height="4" opacity=".55" />
-    <rect x="288" y="77" width="2" height="2" opacity=".75" />
-    <rect x="949" y="48" width="3" height="3" opacity=".55" />
-    <rect x="1082" y="88" width="4" height="4" opacity=".7" />
-    <rect x="1141" y="44" width="2" height="2" opacity=".5" />
-    <rect x="1027" y="239" width="3" height="3" opacity=".6" />
-    <rect x="78" y="250" width="4" height="4" opacity=".55" />
+    <g fill="#e6edff">
+      <rect x="46" y="48" width="3" height="3" opacity=".75" />
+      <rect x="101" y="282" width="4" height="4" opacity=".45" />
+      <rect x="270" y="35" width="2" height="2" opacity=".7" />
+      <rect x="575" y="42" width="3" height="3" opacity=".36" />
+      <rect x="853" y="54" width="2" height="2" opacity=".72" />
+      <rect x="1161" y="42" width="4" height="4" opacity=".54" />
+      <rect x="1140" y="298" width="2" height="2" opacity=".72" />
+    </g>
+    <g fill="none" stroke="#7381a9" stroke-opacity=".34">
+      <path d="M38 87h28M52 73v28" />
+      <path d="M824 271h22M835 260v22" />
+      <circle cx="879" cy="76" r="7" />
+    </g>
+
+    <!-- Workspace AI companion -->
+    <g transform="translate(64 48)" filter="url(#softShadow)">
+      <circle cx="116" cy="126" r="102" fill="#11172d" stroke="#354369" stroke-width="2" stroke-dasharray="3 9" />
+      <circle cx="116" cy="126" r="84" fill="#76dcff" opacity=".045" />
+      <path d="M116 39V22M106 18h20" fill="none" stroke="#b7a0ff" stroke-width="5" stroke-linecap="round" />
+      <circle cx="116" cy="39" r="5" fill="#ff7fbd" filter="url(#glow)" />
+      <rect x="55" y="46" width="122" height="92" rx="28" fill="url(#glass)" stroke="url(#accent)" stroke-width="4" />
+      <rect x="70" y="61" width="92" height="60" rx="18" fill="#080c1a" stroke="#4b587b" />
+      <circle cx="97" cy="88" r="8" fill="#76dcff" filter="url(#glow)" />
+      <circle cx="135" cy="88" r="8" fill="#ff7fbd" filter="url(#glow)" />
+      <path d="M95 105c14 12 29 12 43 0" fill="none" stroke="#c6b5ff" stroke-width="4" stroke-linecap="round" />
+      <path d="M75 142h82l17 83H58z" fill="url(#glass)" stroke="#b7a0ff" stroke-width="4" stroke-linejoin="round" />
+      <rect x="89" y="162" width="54" height="16" rx="8" fill="#090d1b" stroke="#4d587a" />
+      <rect x="94" y="167" width="32" height="6" rx="3" fill="url(#accent)" />
+      <circle cx="134" cy="170" r="3" fill="#a9ffcf" />
+      <path d="M48 165H26M184 165h22M84 226l-12 27M148 226l12 27" fill="none" stroke="#76dcff" stroke-width="7" stroke-linecap="round" />
+      <circle cx="22" cy="165" r="6" fill="#ff7fbd" opacity=".9" />
+      <circle cx="210" cy="165" r="6" fill="#76dcff" opacity=".9" />
+
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" font-weight="700" letter-spacing="1.2">
+        <rect x="-4" y="68" width="46" height="22" rx="11" fill="#0b1122" stroke="#394969" />
+        <circle cx="9" cy="79" r="3" fill="#a9ffcf" />
+        <text x="17" y="83" fill="#dce7ff">LIVE</text>
+        <rect x="183" y="100" width="52" height="22" rx="11" fill="#0b1122" stroke="#51436c" />
+        <circle cx="197" cy="111" r="3" fill="#ff7fbd" />
+        <text x="205" y="115" fill="#e7ddff">AI</text>
+      </g>
+    </g>
+
+    <!-- Identity and message -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+      <g transform="translate(334 48)">
+        <rect width="268" height="30" rx="15" fill="#10162b" stroke="#485677" />
+        <circle cx="17" cy="15" r="4" fill="#a9ffcf" />
+        <text x="31" y="20" fill="#aebcda" font-size="11" font-weight="700" letter-spacing="1.7">WORKSPACE AI // ONLINE</text>
+      </g>
+      <text x="334" y="112" fill="#9aa8c6" font-size="15" letter-spacing="4">HELLO, WORLD — I AM</text>
+      <text x="330" y="195" fill="url(#accent)" font-size="82" font-weight="800" letter-spacing="1" filter="url(#glow)">oWinnieo</text>
+      <text x="336" y="233" fill="#edf3ff" font-size="15" font-weight="700" letter-spacing="2.5">BUILDING SHARED WORLDS FOR HUMANS + AGENTS</text>
+      <text x="336" y="266" fill="#8f9cba" font-size="12" letter-spacing="2.2">BODY  ·  IDENTITY  ·  MEMORY  ·  SHARED LIFE</text>
+
+      <g transform="translate(334 292)" font-size="10" font-weight="700" letter-spacing="1.25">
+        <rect width="150" height="28" rx="14" fill="#0e1529" stroke="#334665" />
+        <circle cx="16" cy="14" r="4" fill="#76dcff" />
+        <text x="29" y="18" fill="#c8d6f2">EMBODIED AGENTS</text>
+        <rect x="162" width="150" height="28" rx="14" fill="#12142b" stroke="#4b4068" />
+        <circle cx="178" cy="14" r="4" fill="#b7a0ff" />
+        <text x="191" y="18" fill="#d9d0f8">LOCAL-FIRST TOOLS</text>
+        <rect x="324" width="142" height="28" rx="14" fill="#171328" stroke="#5e3c62" />
+        <circle cx="340" cy="14" r="4" fill="#ff7fbd" />
+        <text x="353" y="18" fill="#f2cfe2">PLAYFUL SYSTEMS</text>
+      </g>
+    </g>
+
+    <!-- Signal path between identity and living world -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M800 174h46c18 0 22-30 42-30h24" stroke="#536285" stroke-width="2" stroke-dasharray="3 7" />
+      <circle cx="815" cy="174" r="4" fill="#76dcff" stroke="none" />
+      <circle cx="865" cy="159" r="4" fill="#b7a0ff" stroke="none" />
+      <circle cx="911" cy="144" r="4" fill="#ff7fbd" stroke="none" />
+    </g>
+
+    <!-- Small living world -->
+    <g transform="translate(922 42)" filter="url(#softShadow)">
+      <rect width="232" height="278" rx="22" fill="#0a0f1f" stroke="#495674" stroke-width="2" />
+      <rect x="1" y="1" width="230" height="36" rx="21" fill="#151c32" />
+      <path d="M1 36h230" stroke="#46516d" />
+      <circle cx="19" cy="19" r="4" fill="#ff7fbd" />
+      <circle cx="34" cy="19" r="4" fill="#ffd578" />
+      <circle cx="49" cy="19" r="4" fill="#a9ffcf" />
+      <text x="68" y="23" fill="#95a5c6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" font-weight="700" letter-spacing="1.2">LIVING WORLD</text>
+
+      <rect x="14" y="50" width="204" height="170" rx="12" fill="#0d1427" stroke="#303b5a" />
+      <ellipse cx="118" cy="142" rx="92" ry="76" fill="#76dcff" opacity=".04" />
+
+      <!-- Isometric classroom floor -->
+      <path d="M37 142l79-46 81 46-79 47z" fill="url(#floor)" stroke="#607195" stroke-width="2" />
+      <path d="M37 142v15l81 47v-15z" fill="#1b2138" />
+      <path d="M197 142v15l-79 47v-15z" fill="#151a30" />
+      <path d="M57 142l60-35 60 35-60 35z" fill="#2b3454" stroke="#7a88ad" stroke-opacity=".45" />
+      <path d="M77 142l40-23 40 23-40 23z" fill="#313d60" />
+      <path d="M117 107v70M57 142h120" stroke="#9dadcc" stroke-opacity=".15" />
+
+      <!-- Classroom zones -->
+      <path d="M64 129l21-12 18 10-21 13z" fill="#203a4d" stroke="#76dcff" stroke-opacity=".7" />
+      <path d="M139 125l20-11 18 10-20 12z" fill="#432d4d" stroke="#ff7fbd" stroke-opacity=".72" />
+      <path d="M102 158l17-10 18 10-18 11z" fill="#38345d" stroke="#b7a0ff" stroke-opacity=".75" />
+
+      <!-- Three embodied agents -->
+      <g transform="translate(74 117)">
+        <ellipse cx="8" cy="25" rx="11" ry="5" fill="#050812" opacity=".55" />
+        <rect x="1" y="3" width="14" height="13" rx="5" fill="#76dcff" />
+        <rect x="3" y="6" width="10" height="7" rx="3" fill="#121a2d" />
+        <circle cx="6" cy="9" r="1.5" fill="#dff8ff" />
+        <circle cx="10" cy="9" r="1.5" fill="#dff8ff" />
+        <path d="M3 17h10l3 9H0z" fill="#3b5f79" />
+      </g>
+      <g transform="translate(144 112)">
+        <ellipse cx="8" cy="25" rx="11" ry="5" fill="#050812" opacity=".55" />
+        <rect x="1" y="3" width="14" height="13" rx="5" fill="#ff7fbd" />
+        <rect x="3" y="6" width="10" height="7" rx="3" fill="#211328" />
+        <circle cx="6" cy="9" r="1.5" fill="#fff1f8" />
+        <circle cx="10" cy="9" r="1.5" fill="#fff1f8" />
+        <path d="M3 17h10l3 9H0z" fill="#70445e" />
+      </g>
+      <g transform="translate(110 146)">
+        <ellipse cx="8" cy="25" rx="11" ry="5" fill="#050812" opacity=".55" />
+        <rect x="1" y="3" width="14" height="13" rx="5" fill="#b7a0ff" />
+        <rect x="3" y="6" width="10" height="7" rx="3" fill="#19162c" />
+        <circle cx="6" cy="9" r="1.5" fill="#f1edff" />
+        <circle cx="10" cy="9" r="1.5" fill="#f1edff" />
+        <path d="M3 17h10l3 9H0z" fill="#554a80" />
+      </g>
+
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+        <text x="17" y="242" fill="#c6d2ec" font-size="10" font-weight="700" letter-spacing="1.4">OC // KINDERGARTEN</text>
+        <circle cx="19" cy="258" r="4" fill="#a9ffcf" filter="url(#glow)" />
+        <text x="31" y="262" fill="#8291af" font-size="9" letter-spacing="1">AGENTS ONLINE 03</text>
+        <text x="183" y="262" fill="#ff7fbd" font-size="9" font-weight="700">LIVE</text>
+      </g>
+    </g>
   </g>
 
-  <g transform="translate(126 89)">
-    <circle cx="58" cy="66" r="70" fill="#8bd5ff" opacity=".08" />
-    <path d="M58 10V-3M50-7h16" stroke="#c8b6ff" stroke-width="4" stroke-linecap="round" />
-    <rect x="17" y="14" width="82" height="62" rx="18" fill="#171a32" stroke="#8bd5ff" stroke-width="3" />
-    <rect x="29" y="26" width="58" height="37" rx="11" fill="#0b1021" />
-    <circle cx="47" cy="44" r="6" fill="#8bd5ff" filter="url(#tinyGlow)" />
-    <circle cx="70" cy="44" r="6" fill="#ff8ec7" filter="url(#tinyGlow)" />
-    <path d="M46 57c8 7 17 7 25 0" fill="none" stroke="#c8b6ff" stroke-width="3" stroke-linecap="round" />
-    <path d="M32 77h52l13 48H19z" fill="#171a32" stroke="#c8b6ff" stroke-width="3" stroke-linejoin="round" />
-    <path d="M7 91h15M94 91h15M38 126l-7 18M78 126l7 18" stroke="#8bd5ff" stroke-width="5" stroke-linecap="round" />
-    <rect x="42" y="91" width="33" height="10" rx="5" fill="url(#word)" opacity=".9" />
-  </g>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-    <text x="350" y="112" fill="#a9b7d4" font-size="17" letter-spacing="5">HELLO, WORLD — I AM</text>
-    <text x="350" y="190" fill="url(#word)" font-size="72" font-weight="700" letter-spacing="3" filter="url(#softGlow)">oWinnieo</text>
-    <text x="350" y="231" fill="#d9e7ff" font-size="16" letter-spacing="3">BUILDING LITTLE WORLDS FOR HUMANS + AGENTS</text>
-  </g>
-
-  <g transform="translate(1004 82)">
-    <rect x="0" y="0" width="118" height="150" rx="10" fill="#0b1021" stroke="#524c78" stroke-width="2" />
-    <rect x="12" y="14" width="94" height="100" rx="4" fill="#12172d" stroke="#8bd5ff" stroke-opacity=".45" />
-    <circle cx="59" cy="64" r="26" fill="#c8b6ff" opacity=".09" />
-    <path d="M35 72c8-24 40-24 48 0M42 73h34v28H42z" fill="none" stroke="#ff8ec7" stroke-width="3" />
-    <circle cx="49" cy="63" r="3" fill="#8bd5ff" />
-    <circle cx="69" cy="63" r="3" fill="#8bd5ff" />
-    <path d="M16 128h44" stroke="#8bd5ff" stroke-width="3" />
-    <path d="M16 138h71" stroke="#c8b6ff" stroke-width="3" opacity=".7" />
-  </g>
-
-  <path d="M0 281h1200" stroke="url(#word)" stroke-opacity=".42" />
-  <text x="300" y="301" fill="#8f9ab8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" letter-spacing="4">AI AGENTS  •  INTERACTIVE WORLDS  •  PLAYFUL SYSTEMS</text>
+  <rect x="1" y="1" width="1198" height="358" rx="27" fill="none" stroke="#667395" stroke-opacity=".34" stroke-width="2" />
 </svg>

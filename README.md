@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="oWinnieo — building little worlds for humans and agents" />
+  <img src="./assets/header.svg" width="100%" alt="oWinnieo — building shared worlds for humans and AI agents" />
   <br />
   <br />
   <strong>AI Agent × Interactive Worlds × Game & Web</strong>
