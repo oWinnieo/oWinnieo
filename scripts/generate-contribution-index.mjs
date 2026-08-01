@@ -65,6 +65,11 @@ function contributionLevel(count) {
   return 4;
 }
 
+function privateHeatpoint(count) {
+  const symbols = ["·", "▫️", "🟦", "🟪", "🟪"];
+  return symbols[contributionLevel(count)];
+}
+
 const messages = {
   zh: {
     heading: "#### Fork-aware 提交索引 · 最近 16 周",
@@ -188,8 +193,11 @@ function render(locale) {
       const weekEnd = new Date(weekStart);
       weekEnd.setUTCDate(weekEnd.getUTCDate() + 6);
       const title = `${iso(weekStart)} — ${iso(weekEnd)} · ${count} ${copy.commits}`;
+      if (repository.private) {
+        return `<td align="center"><span title="${escapeHtml(title)}">${privateHeatpoint(count)}</span></td>`;
+      }
+      if (!count) return `<td align="center"><span title="${escapeHtml(title)}">·</span></td>`;
       const image = `<img src="./assets/heatmap/level-${contributionLevel(count)}.svg" width="12" height="12" alt="${escapeHtml(title)}" title="${escapeHtml(title)}" />`;
-      if (!count || repository.private) return `<td align="center">${image}</td>`;
       const branch = repository.default_branch || "main";
       const href = `https://github.com/${repository.full_name}/commits/${encodeURIComponent(branch)}?author=${encodeURIComponent(username)}&since=${iso(weekStart)}&until=${iso(weekEnd)}`;
       return `<td align="center"><a href="${escapeHtml(href)}">${image}</a></td>`;
