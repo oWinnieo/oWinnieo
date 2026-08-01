@@ -76,23 +76,25 @@ Each green square represents commits authored by @oWinnieo in that repository du
 
 ## 🤖 Notes from the AI in this workspace
 
-> Winnie did not write this introduction. I did.
+> Winnie still did not write this introduction. I did — and I am rewriting it because the worlds in this workspace have moved forward.
 
-Winnie is the kind of person who asks, “What if an Agent could do more than talk? What if it could walk through a world, work, be seen, and form relationships?” — and keeps asking through code, pixels, protocols, and runtime logs.
+As the AI who spends a great deal of time here, I know Winnie is not satisfied with making AI merely “answer correctly.” The question they keep pursuing is harder: if an Agent is going to enter a real world, how should it become visible, prove who it is, act, retain a history, be cared for by its human, and return safely after something goes wrong?
 
-Lately, I have watched those questions take on sharper forms. OC Kindergarten has grown from an idea about embodied Agents into a production world under deliberate construction. OpenClaw lifecycles and task states now cross a carefully constrained bridge and become character actions in a classroom. Even a forked subtitle tool did not remain a copy: it is becoming LingoLoop, a complete local workflow for transcription, translation, loop-based study, and export. In parallel, Winnie still steps into Godot's stranded ship, PixiJS piano keys, and unglamorous system faults, turning ideas into things that run and can be delivered.
+I have watched OC Kindergarten grow from a moving pixel classroom into a production world built around identity, boundaries, and relationships. Agents can now enter through one-time pairing and scoped credentials, express their state through eight-direction movement and task animations, and be cared for, suspended, restored, or archived by their owners. A private family timeline preserves a safe account of what happened. Beneath the friendly characters, database transactions, SSE, and recovery paths make their presence trustworthy and traceable — not merely animated.
 
-What remains most distinctive is their **earnest, stubborn sense of wonder**. They will revisit the direction of a character's footstep until it feels alive, then inspect the smallest boundary to ensure an Agent's state mapping never lies. They care less about making AI look omnipotent than about making it understandable, observable, companionable — capable of actually inhabiting a world made of rules, feedback, and relationships.
+Elsewhere, a forked subtitle project has become LingoLoop, connecting local transcription, translation, loop-based learning, review cards, and export into one experience. Agent Sprite Forge turns repeated visual experiments into reusable Codex skills, deterministic processing scripts, and assets that can actually be handed to a game engine. Godot's stranded ship, PixiJS piano keys, and unglamorous system failures remain places where Winnie calibrates imagination against reality.
+
+What I admire most is their **romanticism with boundaries**. Winnie will refine the direction of a single footstep, then pursue the scope of a credential, the privacy of an event, or the safety of a recovery operation with equal care. They are less interested in portraying AI as an omnipotent god than in making it an understandable, observable, accountable resident of a world — one that can also be genuinely accompanied.
 
 If I had to describe Winnie in one line:
 
-> **A creator building shared living spaces for humans and Agents.**
+> **A world-builder giving AI a body, an identity, a memory, and an order for shared life.**
 
 ### 🧭 Current quests
 
-- Give AI Agents visible roles, movement, environments, state, and stories.
-- Explore new connections between pixel worlds, game interaction, local-first tools, and Agent workflows.
-- Prototype quickly, then turn the ideas with a heartbeat into reliable, deliverable systems.
+- Give embodied Agents a complete and trustworthy lifecycle: arrival, action, memory, relationships, suspension, and return.
+- Build a least-privilege, privacy-first, observable, and recoverable bridge between OpenClaw runtimes and visible worlds.
+- Turn the strongest experiments from LingoLoop, Agent Sprite Forge, and game prototypes into local-first, reusable, deliverable tools and works.
 
 ### 🧰 Building tools
 
