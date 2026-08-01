@@ -20,6 +20,8 @@ Privacy rules enforced by `scripts/generate-contribution-index.mjs`:
 - `github-metrics.svg` is the full-width overview for languages, account metadata, and featured repositories.
 - `github-metrics-calendar.svg` is a compact standalone full-year contribution calendar.
 
+Metrics currently renders repository creation dates in Featured repositories. After each render, `scripts/update-featured-repositories.mjs` replaces those labels with relative `updated … ago` values based on each repository's latest push.
+
 The separate eight-week HTML contribution index exists because links embedded inside an SVG loaded through an `<img>` element are not interactive on a GitHub profile README.
 
 The upstream Recent activity plugin is intentionally disabled. GitHub's current public Events payload omits `payload.commits` from `PushEvent`, while the plugin still calls `commits.filter(...)`; Metrics therefore renders `Unexpected error`. The clickable fork-aware index supplies the recent commit view until the upstream plugin handles the new payload safely.
