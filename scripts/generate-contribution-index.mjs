@@ -115,7 +115,14 @@ const publicRepositories = await paged(
 
 let accessibleRepositories = [];
 if (token) {
-  const viewer = await github("/user", { allowMissing: true });
+  let viewer = null;
+  try {
+    viewer = await github("/user", { allowMissing: true });
+  } catch (error) {
+    // The repository-scoped GITHUB_TOKEN cannot read /user. Public scanning
+    // must still work; a user PAT in METRICS_TOKEN enables the private path.
+    if (!String(error.message).includes("(403)")) throw error;
+  }
   if (viewer?.login?.toLowerCase() === username.toLowerCase()) {
     accessibleRepositories = await paged(
       "/user/repos?affiliation=owner,collaborator,organization_member&sort=pushed",
