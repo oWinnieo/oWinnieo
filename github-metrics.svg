@@ -26,14 +26,14 @@
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="362.64257857286674" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="362.64257857286674" y="0" width="247.4483801708653" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="610.0909587437321" y="0" width="193.11027313466846" height="8" fill="#1797c0"/>
-                    <rect mask="url(#languages-bar)" x="803.2012318784004" y="0" width="50.39888674607469" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="853.6001186244752" y="0" width="29.32651215311753" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="882.9266307775927" y="0" width="15.305041216042039" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="898.2316719936348" y="0" width="15.131584672594668" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="913.3632566662294" y="0" width="6.636743333770589" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="362.7329930442719" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="362.7329930442719" y="0" width="247.3926528453187" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="610.1256458895906" y="0" width="193.06678317910706" height="8" fill="#1797c0"/>
+                    <rect mask="url(#languages-bar)" x="803.1924290686977" y="0" width="50.38753651954685" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="853.5799655882446" y="0" width="29.31990759143571" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="882.8998731796803" y="0" width="15.301594400129312" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="898.2014675798096" y="0" width="15.16328373332794" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="913.3647513131375" y="0" width="6.635248686862515" height="8" fill="#3572A5"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -46,7 +46,7 @@
                             </div>
                             <small>
                                 <div>35.6 MB</div>
-                                <div>39.42%</div>
+                                <div>39.43%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -72,7 +72,7 @@
                             </div>
                             <small>
                                 <div>24.3 MB</div>
-                                <div>26.9%</div>
+                                <div>26.89%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -110,7 +110,7 @@
                             </div>
                             <small>
                                 <div>1.49 MB</div>
-                                <div>1.64%</div>
+                                <div>1.65%</div>
                             </small>
                         </div>
                     </section>
@@ -160,7 +160,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>oWinnieo/oc-kindergarten</span>
-                                        <span>updated 3 days ago</span>
+                                        <span>created 20 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Production repository for oc-kindergarten.</div>
@@ -207,7 +207,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>oWinnieo/dual-sub-video</span>
-                                        <span>updated 18 hours ago</span>
+                                        <span>created 1 day ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">dual sub for videos either learning or with someone who can't understand your lingo</div>
@@ -254,7 +254,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>oWinnieo/piano</span>
-                                        <span>updated 1 month ago</span>
+                                        <span>created Jun 12 2026</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -302,7 +302,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>oWinnieo/Anchor</span>
-                                        <span>updated 19 days ago</span>
+                                        <span>created 28 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">For CiGA Game Jam 2026</div>
@@ -407,7 +407,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            921 Commits
+                            922 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -478,7 +478,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 1 Aug 2026, 18:18:38 (timezone Asia/Singapore) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 1 Aug 2026, 18:31:33 (timezone Asia/Singapore) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
