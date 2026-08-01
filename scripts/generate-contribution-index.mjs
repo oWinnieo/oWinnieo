@@ -280,10 +280,10 @@ function renderCalendar() {
     .map(({ count, date, day, week }) => {
       const level = contributionLevel(count);
       const color = colors[level];
-      const x = 54 + (week - day) * 7.35;
-      const y = 48 + (week + day) * 3.45;
-      const halfWidth = 3.55;
-      const halfHeight = 1.82;
+      const halfWidth = 7.35;
+      const halfHeight = 3.45;
+      const x = 54 + (week - day) * halfWidth;
+      const y = 48 + (week + day) * halfHeight;
       const height = count ? Math.min(18, 2.5 + Math.log2(count + 1) * 3.1) : 0;
       const topY = y - height;
       const top = `${x},${topY} ${x + halfWidth},${topY + halfHeight} ${x},${topY + halfHeight * 2} ${x - halfWidth},${topY + halfHeight}`;
@@ -294,7 +294,7 @@ function renderCalendar() {
         `<g><title>${escapeHtml(title)}</title>`,
         height ? `<polygon points="${left}" fill="${shade(color, 0.72)}" />` : "",
         height ? `<polygon points="${right}" fill="${shade(color, 0.52)}" />` : "",
-        `<polygon points="${top}" fill="${color}" stroke="rgba(27,31,35,0.08)" stroke-width="0.35" />`,
+        `<polygon points="${top}" fill="${color}" />`,
         "</g>",
       ].join("");
     }).join("\n");
