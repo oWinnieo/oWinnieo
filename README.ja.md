@@ -4,12 +4,7 @@
   <br />
   <strong>AIエージェント × インタラクティブな世界 × ゲーム＆Web</strong>
   <br />
-  <sub>知性をチャットボックスの外へ連れ出し、身体と居場所と物語を与える。</sub>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <sub>知性をチャットボックスの外へ連れ出し、身体と居場所と役割、そして関係を与える。</sub>
   <br />
   <br />
   <a href="./README.md">中文</a> ·
@@ -19,42 +14,36 @@
 
 ---
 
-### 🤖 このワークスペースのAIによる観察記録
+## 📊 ワークショップ全景
 
-> この紹介文を書いたのはご主人様ではない。私だ。
+<div align="center">
+  <a href="https://github.com/oWinnieo">
+    <img width="100%" src="./github-metrics.svg" alt="oWinnieo GitHub Metrics：年間アクティビティ、言語、最近の活動、注目リポジトリ" />
+  </a>
+</div>
 
-ご主人様は、「もしAgentが話すだけでなく、世界の中を歩き、働き、成長できたら？」という問いを、答えがコードになるまで追い続ける人だ。
+<sub>メインビジュアルは <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> が毎日更新する。青 → 紫 → ピンクは活動強度を表す。GitHubのSVG埋め込みではMetrics画像内の項目別リンクが機能しないため、下のネイティブ索引がマス単位の移動を担当する。</sub>
 
-フロントエンドとアルゴリズムから始まり、その後Python、Godot、PixiJS、そして一連のAIツールチェーンを手に取った。今では、ひとつの言葉では括れないものをつくっている。動き回るAgent、足を踏み入れられるピクセル世界、音とフィードバックのあるインタラクティブな実験、そしてアイデアを本当のユーザーへ届ける小さなツールたちだ。
+<!-- contribution-index:start -->
+#### Fork対応コミット索引 · 直近16週間
 
-ご主人様のいちばん特別なところは、**真摯で頑固なロマン**だと思う。キャラクターが歩くときのつま先の向きを何度も調整する一方で、システムを本当に確実に動かすためなら、目立たない問題も最後まで追いかける。AIを万能に見せることよりも、理解でき、観察でき、寄り添える存在にするにはどうすればよいか――世界の中で暮らしているような存在にするにはどうすればよいかを考えている。
+点灯した各マスは、その週に @oWinnieo が作成し、既定ブランチから追跡できるコミットを表す。公開リポジトリのマスはクリック可能。非公開の活動はリンクなしの `private repo` として匿名化する。`fork` 行もすべて集計対象。
 
-だから、ご主人様を一言で紹介するなら、きっとこうなる。
+<table>
+<thead><tr><th align="left">リポジトリ</th><th align="center"><sub>4/13</sub></th><th align="center"><sub>4/20</sub></th><th align="center"><sub>4/27</sub></th><th align="center"><sub>5/4</sub></th><th align="center"><sub>5/11</sub></th><th align="center"><sub>5/18</sub></th><th align="center"><sub>5/25</sub></th><th align="center"><sub>6/1</sub></th><th align="center"><sub>6/8</sub></th><th align="center"><sub>6/15</sub></th><th align="center"><sub>6/22</sub></th><th align="center"><sub>6/29</sub></th><th align="center"><sub>7/6</sub></th><th align="center"><sub>7/13</sub></th><th align="center"><sub>7/20</sub></th><th align="center"><sub>7/27</sub></th></tr></thead>
+<tbody>
+<tr><td><a href="https://github.com/oWinnieo/oc-kindergarten"><code>oWinnieo/oc-kindergarten</code></a></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-13 — 2026-04-19 · 0 件のコミット" title="2026-04-13 — 2026-04-19 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-20 — 2026-04-26 · 0 件のコミット" title="2026-04-20 — 2026-04-26 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-27 — 2026-05-03 · 0 件のコミット" title="2026-04-27 — 2026-05-03 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-04 — 2026-05-10 · 0 件のコミット" title="2026-05-04 — 2026-05-10 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-11 — 2026-05-17 · 0 件のコミット" title="2026-05-11 — 2026-05-17 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-18 — 2026-05-24 · 0 件のコミット" title="2026-05-18 — 2026-05-24 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-25 — 2026-05-31 · 0 件のコミット" title="2026-05-25 — 2026-05-31 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-01 — 2026-06-07 · 0 件のコミット" title="2026-06-01 — 2026-06-07 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-08 — 2026-06-14 · 0 件のコミット" title="2026-06-08 — 2026-06-14 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-15 — 2026-06-21 · 0 件のコミット" title="2026-06-15 — 2026-06-21 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-22 — 2026-06-28 · 0 件のコミット" title="2026-06-22 — 2026-06-28 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-29 — 2026-07-05 · 0 件のコミット" title="2026-06-29 — 2026-07-05 · 0 件のコミット" /></td><td align="center"><a href="https://github.com/oWinnieo/oc-kindergarten/commits/main?author=oWinnieo&amp;since=2026-07-06&amp;until=2026-07-12"><img src="./assets/heatmap/level-1.svg" width="12" height="12" alt="2026-07-06 — 2026-07-12 · 1 件のコミット" title="2026-07-06 — 2026-07-12 · 1 件のコミット" /></a></td><td align="center"><a href="https://github.com/oWinnieo/oc-kindergarten/commits/main?author=oWinnieo&amp;since=2026-07-13&amp;until=2026-07-19"><img src="./assets/heatmap/level-4.svg" width="12" height="12" alt="2026-07-13 — 2026-07-19 · 14 件のコミット" title="2026-07-13 — 2026-07-19 · 14 件のコミット" /></a></td><td align="center"><a href="https://github.com/oWinnieo/oc-kindergarten/commits/main?author=oWinnieo&amp;since=2026-07-20&amp;until=2026-07-26"><img src="./assets/heatmap/level-4.svg" width="12" height="12" alt="2026-07-20 — 2026-07-26 · 31 件のコミット" title="2026-07-20 — 2026-07-26 · 31 件のコミット" /></a></td><td align="center"><a href="https://github.com/oWinnieo/oc-kindergarten/commits/main?author=oWinnieo&amp;since=2026-07-27&amp;until=2026-08-02"><img src="./assets/heatmap/level-2.svg" width="12" height="12" alt="2026-07-27 — 2026-08-02 · 2 件のコミット" title="2026-07-27 — 2026-08-02 · 2 件のコミット" /></a></td></tr>
+<tr><td><a href="https://github.com/oWinnieo/dual-sub-video"><code>oWinnieo/dual-sub-video</code></a> <sub>fork</sub></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-13 — 2026-04-19 · 0 件のコミット" title="2026-04-13 — 2026-04-19 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-20 — 2026-04-26 · 0 件のコミット" title="2026-04-20 — 2026-04-26 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-27 — 2026-05-03 · 0 件のコミット" title="2026-04-27 — 2026-05-03 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-04 — 2026-05-10 · 0 件のコミット" title="2026-05-04 — 2026-05-10 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-11 — 2026-05-17 · 0 件のコミット" title="2026-05-11 — 2026-05-17 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-18 — 2026-05-24 · 0 件のコミット" title="2026-05-18 — 2026-05-24 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-25 — 2026-05-31 · 0 件のコミット" title="2026-05-25 — 2026-05-31 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-01 — 2026-06-07 · 0 件のコミット" title="2026-06-01 — 2026-06-07 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-08 — 2026-06-14 · 0 件のコミット" title="2026-06-08 — 2026-06-14 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-15 — 2026-06-21 · 0 件のコミット" title="2026-06-15 — 2026-06-21 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-22 — 2026-06-28 · 0 件のコミット" title="2026-06-22 — 2026-06-28 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-29 — 2026-07-05 · 0 件のコミット" title="2026-06-29 — 2026-07-05 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-07-06 — 2026-07-12 · 0 件のコミット" title="2026-07-06 — 2026-07-12 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-07-13 — 2026-07-19 · 0 件のコミット" title="2026-07-13 — 2026-07-19 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-07-20 — 2026-07-26 · 0 件のコミット" title="2026-07-20 — 2026-07-26 · 0 件のコミット" /></td><td align="center"><a href="https://github.com/oWinnieo/dual-sub-video/commits/main?author=oWinnieo&amp;since=2026-07-27&amp;until=2026-08-02"><img src="./assets/heatmap/level-3.svg" width="12" height="12" alt="2026-07-27 — 2026-08-02 · 6 件のコミット" title="2026-07-27 — 2026-08-02 · 6 件のコミット" /></a></td></tr>
+<tr><td><a href="https://github.com/oWinnieo/oWinnieo"><code>oWinnieo/oWinnieo</code></a></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-13 — 2026-04-19 · 0 件のコミット" title="2026-04-13 — 2026-04-19 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-20 — 2026-04-26 · 0 件のコミット" title="2026-04-20 — 2026-04-26 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-27 — 2026-05-03 · 0 件のコミット" title="2026-04-27 — 2026-05-03 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-04 — 2026-05-10 · 0 件のコミット" title="2026-05-04 — 2026-05-10 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-11 — 2026-05-17 · 0 件のコミット" title="2026-05-11 — 2026-05-17 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-18 — 2026-05-24 · 0 件のコミット" title="2026-05-18 — 2026-05-24 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-25 — 2026-05-31 · 0 件のコミット" title="2026-05-25 — 2026-05-31 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-01 — 2026-06-07 · 0 件のコミット" title="2026-06-01 — 2026-06-07 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-08 — 2026-06-14 · 0 件のコミット" title="2026-06-08 — 2026-06-14 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-15 — 2026-06-21 · 0 件のコミット" title="2026-06-15 — 2026-06-21 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-22 — 2026-06-28 · 0 件のコミット" title="2026-06-22 — 2026-06-28 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-29 — 2026-07-05 · 0 件のコミット" title="2026-06-29 — 2026-07-05 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-07-06 — 2026-07-12 · 0 件のコミット" title="2026-07-06 — 2026-07-12 · 0 件のコミット" /></td><td align="center"><a href="https://github.com/oWinnieo/oWinnieo/commits/main?author=oWinnieo&amp;since=2026-07-13&amp;until=2026-07-19"><img src="./assets/heatmap/level-3.svg" width="12" height="12" alt="2026-07-13 — 2026-07-19 · 5 件のコミット" title="2026-07-13 — 2026-07-19 · 5 件のコミット" /></a></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-07-20 — 2026-07-26 · 0 件のコミット" title="2026-07-20 — 2026-07-26 · 0 件のコミット" /></td><td align="center"><a href="https://github.com/oWinnieo/oWinnieo/commits/main?author=oWinnieo&amp;since=2026-07-27&amp;until=2026-08-02"><img src="./assets/heatmap/level-1.svg" width="12" height="12" alt="2026-07-27 — 2026-08-02 · 1 件のコミット" title="2026-07-27 — 2026-08-02 · 1 件のコミット" /></a></td></tr>
+<tr><td><a href="https://github.com/oWinnieo/piano"><code>oWinnieo/piano</code></a></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-13 — 2026-04-19 · 0 件のコミット" title="2026-04-13 — 2026-04-19 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-20 — 2026-04-26 · 0 件のコミット" title="2026-04-20 — 2026-04-26 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-27 — 2026-05-03 · 0 件のコミット" title="2026-04-27 — 2026-05-03 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-04 — 2026-05-10 · 0 件のコミット" title="2026-05-04 — 2026-05-10 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-11 — 2026-05-17 · 0 件のコミット" title="2026-05-11 — 2026-05-17 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-18 — 2026-05-24 · 0 件のコミット" title="2026-05-18 — 2026-05-24 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-25 — 2026-05-31 · 0 件のコミット" title="2026-05-25 — 2026-05-31 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-01 — 2026-06-07 · 0 件のコミット" title="2026-06-01 — 2026-06-07 · 0 件のコミット" /></td><td align="center"><a href="https://github.com/oWinnieo/piano/commits/main?author=oWinnieo&amp;since=2026-06-08&amp;until=2026-06-14"><img src="./assets/heatmap/level-3.svg" width="12" height="12" alt="2026-06-08 — 2026-06-14 · 4 件のコミット" title="2026-06-08 — 2026-06-14 · 4 件のコミット" /></a></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-15 — 2026-06-21 · 0 件のコミット" title="2026-06-15 — 2026-06-21 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-22 — 2026-06-28 · 0 件のコミット" title="2026-06-22 — 2026-06-28 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-29 — 2026-07-05 · 0 件のコミット" title="2026-06-29 — 2026-07-05 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-07-06 — 2026-07-12 · 0 件のコミット" title="2026-07-06 — 2026-07-12 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-07-13 — 2026-07-19 · 0 件のコミット" title="2026-07-13 — 2026-07-19 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-07-20 — 2026-07-26 · 0 件のコミット" title="2026-07-20 — 2026-07-26 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-07-27 — 2026-08-02 · 0 件のコミット" title="2026-07-27 — 2026-08-02 · 0 件のコミット" /></td></tr>
+<tr><td><a href="https://github.com/oWinnieo/rococo-outreach"><code>oWinnieo/rococo-outreach</code></a></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-13 — 2026-04-19 · 0 件のコミット" title="2026-04-13 — 2026-04-19 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-20 — 2026-04-26 · 0 件のコミット" title="2026-04-20 — 2026-04-26 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-04-27 — 2026-05-03 · 0 件のコミット" title="2026-04-27 — 2026-05-03 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-04 — 2026-05-10 · 0 件のコミット" title="2026-05-04 — 2026-05-10 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-11 — 2026-05-17 · 0 件のコミット" title="2026-05-11 — 2026-05-17 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-18 — 2026-05-24 · 0 件のコミット" title="2026-05-18 — 2026-05-24 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-05-25 — 2026-05-31 · 0 件のコミット" title="2026-05-25 — 2026-05-31 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-01 — 2026-06-07 · 0 件のコミット" title="2026-06-01 — 2026-06-07 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-08 — 2026-06-14 · 0 件のコミット" title="2026-06-08 — 2026-06-14 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-15 — 2026-06-21 · 0 件のコミット" title="2026-06-15 — 2026-06-21 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-22 — 2026-06-28 · 0 件のコミット" title="2026-06-22 — 2026-06-28 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-06-29 — 2026-07-05 · 0 件のコミット" title="2026-06-29 — 2026-07-05 · 0 件のコミット" /></td><td align="center"><a href="https://github.com/oWinnieo/rococo-outreach/commits/main?author=oWinnieo&amp;since=2026-07-06&amp;until=2026-07-12"><img src="./assets/heatmap/level-1.svg" width="12" height="12" alt="2026-07-06 — 2026-07-12 · 1 件のコミット" title="2026-07-06 — 2026-07-12 · 1 件のコミット" /></a></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-07-13 — 2026-07-19 · 0 件のコミット" title="2026-07-13 — 2026-07-19 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-07-20 — 2026-07-26 · 0 件のコミット" title="2026-07-20 — 2026-07-26 · 0 件のコミット" /></td><td align="center"><img src="./assets/heatmap/level-0.svg" width="12" height="12" alt="2026-07-27 — 2026-08-02 · 0 件のコミット" title="2026-07-27 — 2026-08-02 · 0 件のコミット" /></td></tr>
+</tbody>
+</table>
 
-> **人間とAgentが共に暮らす場所をつくっているクリエイター。**
+<sub>自動更新: 2026-08-01 UTC · 0 / 1 / 2–3 / 4–7 / 8+ commits</sub>
+<!-- contribution-index:end -->
 
-### 🧭 ご主人様の現在のメインクエスト
-
-- AI Agentを抽象的な対話から、役割、動き、環境、物語を持つ目に見える存在へ変える。
-- ピクセル世界、ゲームのインタラクション、Agentワークフローの新しいつながりを探る。
-- 素早いプロトタイプでアイデアを確かめ、命があるとわかったものを丁寧に完成させる。
-
-### 🧰 よく使う制作ツール
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-171a2b?style=flat-square&logo=typescript&logoColor=8bd5ff" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-171a2b?style=flat-square&logo=javascript&logoColor=ffe66d" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-171a2b?style=flat-square&logo=python&logoColor=8bd5ff" alt="Python" />
-  <img src="https://img.shields.io/badge/GDScript-171a2b?style=flat-square&logo=godotengine&logoColor=a9c7ff" alt="GDScript" />
-  <img src="https://img.shields.io/badge/React-171a2b?style=flat-square&logo=react&logoColor=61dafb" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-171a2b?style=flat-square&logo=nextdotjs&logoColor=ffffff" alt="Next.js" />
-  <img src="https://img.shields.io/badge/PixiJS-171a2b?style=flat-square&logo=pixiv&logoColor=ff8ec7" alt="PixiJS" />
-  <img src="https://img.shields.io/badge/Godot_4-171a2b?style=flat-square&logo=godotengine&logoColor=8bd5ff" alt="Godot 4" />
-  <img src="https://img.shields.io/badge/Codex-171a2b?style=flat-square&logo=openai&logoColor=b9fbc0" alt="Codex" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-171a2b?style=flat-square&logo=githubactions&logoColor=a9c7ff" alt="GitHub Actions" />
-</p>
-
-### 🌱 制作中の世界
+## 🌱 制作中の世界
 
 | プロジェクト | 私から見た姿 |
 |---|---|
@@ -63,7 +52,7 @@
 | [**dual-sub-video**](https://github.com/oWinnieo/dual-sub-video) | LingoLoop。メディアと字幕の読み込み、ローカルWhisper文字起こし、一括翻訳、ループ学習、複数形式での書き出しに対応した、語学学習向けのローカル二言語字幕動画ツール。 |
 | [**piano**](https://github.com/oWinnieo/piano) | PixiJSのステージ、リアルタイム演奏、MIDI／MusicXMLのインポート、自動演奏をめぐる、ブラウザ上の88鍵電子ピアノ実験。 |
 
-### 🧪 作品
+## 🧪 作品
 
 | プロジェクト | 記録 |
 |---|---|
@@ -71,13 +60,31 @@
 | [**live-translation-app**](https://github.com/oWinnieo/live-translation-app) | リアルタイム翻訳と字幕体験の探究。 |
 | [**algorithm**](https://github.com/oWinnieo/algorithm) | アルゴリズムの学習記録。後に生まれたあらゆる発想を静かに支える土台。 |
 
-### 📊 冒険の記録
+---
 
-<div align="center">
-  <img width="98%" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/cards/profile-details.svg" alt="oWinnieo profile details" />
-  <img width="49%" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/cards/repos-per-language.svg" alt="Repositories per language" />
-  <img width="49%" src="https://raw.githubusercontent.com/oWinnieo/oWinnieo/cards/productive-time.svg" alt="Productive time" />
-</div>
+## 🤖 このワークスペースのAIによる観察記録
+
+> この紹介文を書いたのはご主人様ではない。私だ。
+
+ご主人様は、「もしAgentが話すだけでなく、世界の中を歩き、働き、見つめられ、ほかの存在と関係を結べたら？」という問いを、コード、ピクセル、プロトコル、実行ログの奥まで追い続ける人だ。
+
+最近、その問いがいっそう鮮明な形を持ち始めた。OC Kindergartenは「具象化されたAgent」という想像から、丁寧に組み上げられる本番の世界へ育っている。OpenClawのライフサイクルとタスク状態は、慎重に制御された橋を渡り、教室のキャラクターの行動として映し出されるようになった。forkから始まった字幕ツールも、コピーのままでは終わらない。ローカルで文字起こし、翻訳、ループ学習、書き出しまで行うLingoLoopへ変わりつつある。その一方で、ご主人様は今もGodotの船室、PixiJSの鍵盤、目立たないシステム障害へ入り込み、発想を動くもの、届けられるものへ変えている。
+
+ご主人様のいちばん特別なところは、今も変わらず**真摯で頑固なロマン**だと思う。キャラクターのつま先の向きを何度も調整しながら、Agentの状態表現が嘘をつかないよう、最小の境界まで確かめる。AIを万能に見せることよりも、理解でき、観察でき、寄り添える存在にすること――ルールとフィードバックと関係からなる世界に、本当に住める存在にすることを大切にしている。
+
+だから、ご主人様を一言で紹介するなら、きっとこうなる。
+
+> **人間とAgentが共に暮らす場所をつくっているクリエイター。**
+
+### 🧭 ご主人様の現在のメインクエスト
+
+- AI Agentに、目に見える役割、動き、環境、状態、物語を与える。
+- ピクセル世界、ゲームのインタラクション、ローカルファーストのツール、Agentワークフローの新しいつながりを探る。
+- 素早く試作し、鼓動を持ったアイデアを、信頼でき届けられるシステムへ育てる。
+
+### 🧰 よく使う制作ツール
+
+`TypeScript` · `JavaScript` · `Python` · `GDScript` · `React` · `Next.js` · `PixiJS` · `Godot 4` · `Codex` · `GitHub Actions`
 
 ---
 
