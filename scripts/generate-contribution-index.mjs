@@ -94,7 +94,6 @@ function shade(hex, factor) {
 const messages = {
   zh: {
     heading: `#### 提交索引 · 最近 ${weeksToShow} 周`,
-    note: "每个绿色方块代表该仓库当周由 @oWinnieo 创作、且可从默认分支追溯到的提交；颜色由浅到深表示提交数量。公开仓库方块可点击；私有仓库只显示 `private repo`，不暴露名称与链接。",
     repository: "仓库",
     private: "private repo",
     empty: `这 ${weeksToShow} 周暂无可索引的提交。`,
@@ -103,7 +102,6 @@ const messages = {
   },
   en: {
     heading: `#### Commit index · last ${weeksToShow} weeks`,
-    note: "Each green square represents commits authored by @oWinnieo in that repository during the week and reachable from its default branch; darker shades indicate more commits. Public squares are clickable, while private work is anonymized as `private repo` without a link.",
     repository: "Repository",
     private: "private repo",
     empty: `No indexable commits in the last ${weeksToShow} weeks.`,
@@ -112,7 +110,6 @@ const messages = {
   },
   ja: {
     heading: `#### コミット索引 · 直近${weeksToShow}週間`,
-    note: "各緑色のマスは、その週に @oWinnieo が作成し、既定ブランチから追跡できるコミットを表す。色が濃いほどコミット数が多い。公開リポジトリのマスはクリック可能で、非公開の活動はリンクなしの `private repo` として匿名化する。",
     repository: "リポジトリ",
     private: "private repo",
     empty: `直近${weeksToShow}週間に索引可能なコミットはありません。`,
@@ -245,8 +242,6 @@ function renderIndex(locale) {
 
   return [
     copy.heading,
-    "",
-    copy.note,
     "",
     table,
     "",
