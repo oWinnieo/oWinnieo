@@ -26,14 +26,14 @@
                         <rect x="0" y="0" width="920" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="363.28108689534025" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="363.28108689534025" y="0" width="246.71835517690005" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="609.9994420722403" y="0" width="192.5405570351635" height="8" fill="#1797c0"/>
-                    <rect mask="url(#languages-bar)" x="802.5399991074038" y="0" width="50.576513218001345" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="853.1165123254051" y="0" width="29.258645050925967" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="882.375157376331" y="0" width="15.25988811132717" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="897.6350454876582" y="0" width="15.243224845394554" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="912.8782703330527" y="0" width="7.121729666947131" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="363.2182286802956" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="363.2182286802956" y="0" width="246.67566571140185" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="609.8938943916975" y="0" width="192.50724190763412" height="8" fill="#1797c0"/>
+                    <rect mask="url(#languages-bar)" x="802.4011362993316" y="0" width="50.5677620072757" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="852.9688983066072" y="0" width="29.25358245265463" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="882.2224807592619" y="0" width="15.25724770596873" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="897.4797284652307" y="0" width="15.240587323266734" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="912.7203157884974" y="0" width="7.279684211502645" height="8" fill="#3572A5"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -46,7 +46,7 @@
                             </div>
                             <small>
                                 <div>35.8 MB</div>
-                                <div>39.49%</div>
+                                <div>39.48%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -72,7 +72,7 @@
                             </div>
                             <small>
                                 <div>24.3 MB</div>
-                                <div>26.82%</div>
+                                <div>26.81%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -98,7 +98,7 @@
                             </div>
                             <small>
                                 <div>18.9 MB</div>
-                                <div>20.93%</div>
+                                <div>20.92%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -135,8 +135,8 @@
                                 Python
                             </div>
                             <small>
-                                <div>701 kB</div>
-                                <div>0.77%</div>
+                                <div>717 kB</div>
+                                <div>0.79%</div>
                             </small>
                         </div>
                     </section>
@@ -160,7 +160,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>oWinnieo/oc-kindergarten</span>
-                                        <span>updated 2 months ago</span>
+                                        <span>created Jul 12 2026</span>
                                     </div>
                                 </div>
                                 <div class="field description">Production repository for oc-kindergarten.</div>
@@ -207,7 +207,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>oWinnieo/dual-sub-video</span>
-                                        <span>updated 2 months ago</span>
+                                        <span>created Jul 30 2026</span>
                                     </div>
                                 </div>
                                 <div class="field description">dual sub for videos either learning or with someone who can't understand your lingo</div>
@@ -254,7 +254,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>oWinnieo/piano</span>
-                                        <span>updated 3 months ago</span>
+                                        <span>created Jun 12 2026</span>
                                     </div>
                                 </div>
                                 <div class="field description">
@@ -302,7 +302,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>oWinnieo/Anchor</span>
-                                        <span>updated 2 months ago</span>
+                                        <span>created Jul 04 2026</span>
                                     </div>
                                 </div>
                                 <div class="field description">For CiGA Game Jam 2026</div>
@@ -369,8 +369,8 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
                                     <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
@@ -381,7 +381,7 @@
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -389,7 +389,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1 2.5A2.5 2.5 0 013.5 0h8.75a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0V1.5h-8a1 1 0 00-1 1v6.708A2.492 2.492 0 013.5 9h3.25a.75.75 0 010 1.5H3.5a1 1 0 100 2h5.75a.75.75 0 010 1.5H3.5A2.5 2.5 0 011 11.5v-9zm13.23 7.79a.75.75 0 001.06-1.06l-2.505-2.505a.75.75 0 00-1.06 0L9.22 9.229a.75.75 0 001.06 1.061l1.225-1.224v6.184a.75.75 0 001.5 0V9.066l1.224 1.224z"/>
                             </svg>
-                            Contributed to 25 repositories
+                            Contributed to 26 repositories
                         </div>
                     </section>
                 </div>
@@ -478,7 +478,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 10 Oct 2026, 16:42:27 (timezone Asia/Singapore) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 11 Oct 2026, 17:06:06 (timezone Asia/Singapore) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
