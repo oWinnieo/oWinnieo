@@ -38,13 +38,13 @@
 #### Commit index · last 8 weeks
 
 <table>
-<thead><tr><th align="left">Repository</th><th align="center"><sub>8/31</sub></th><th align="center"><sub>9/7</sub></th><th align="center"><sub>9/14</sub></th><th align="center"><sub>9/21</sub></th><th align="center"><sub>9/28</sub></th><th align="center"><sub>10/5</sub></th><th align="center"><sub>10/12</sub></th><th align="center"><sub>10/19</sub></th></tr></thead>
+<thead><tr><th align="left">Repository</th><th align="center"><sub>9/7</sub></th><th align="center"><sub>9/14</sub></th><th align="center"><sub>9/21</sub></th><th align="center"><sub>9/28</sub></th><th align="center"><sub>10/5</sub></th><th align="center"><sub>10/12</sub></th><th align="center"><sub>10/19</sub></th><th align="center"><sub>10/26</sub></th></tr></thead>
 <tbody>
-<tr><td><code>private repo</code></td><td align="center"><span title="2026-08-31 — 2026-09-06 · 0 commits">·</span></td><td align="center"><span title="2026-09-07 — 2026-09-13 · 0 commits">·</span></td><td align="center"><span title="2026-09-14 — 2026-09-20 · 0 commits">·</span></td><td align="center"><span title="2026-09-21 — 2026-09-27 · 0 commits">·</span></td><td align="center"><span title="2026-09-28 — 2026-10-04 · 29 commits">⬛</span></td><td align="center"><span title="2026-10-05 — 2026-10-11 · 16 commits">⬛</span></td><td align="center"><span title="2026-10-12 — 2026-10-18 · 30 commits">⬛</span></td><td align="center"><span title="2026-10-19 — 2026-10-25 · 27 commits">⬛</span></td></tr>
+<tr><td><code>private repo</code></td><td align="center"><span title="2026-09-07 — 2026-09-13 · 0 commits">·</span></td><td align="center"><span title="2026-09-14 — 2026-09-20 · 0 commits">·</span></td><td align="center"><span title="2026-09-21 — 2026-09-27 · 0 commits">·</span></td><td align="center"><span title="2026-09-28 — 2026-10-04 · 29 commits">⬛</span></td><td align="center"><span title="2026-10-05 — 2026-10-11 · 16 commits">⬛</span></td><td align="center"><span title="2026-10-12 — 2026-10-18 · 30 commits">⬛</span></td><td align="center"><span title="2026-10-19 — 2026-10-25 · 27 commits">⬛</span></td><td align="center"><span title="2026-10-26 — 2026-11-01 · 0 commits">·</span></td></tr>
 </tbody>
 </table>
 
-<sub>auto-updated: 2026-10-25 UTC · 0 / 1 / 2–3 / 4–7 / 8+ commits</sub>
+<sub>auto-updated: 2026-10-26 UTC · 0 / 1 / 2–3 / 4–7 / 8+ commits</sub>
 <!-- contribution-index:end -->
 
 ## 🌱 Worlds under construction
