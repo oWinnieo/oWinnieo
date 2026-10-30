@@ -40,11 +40,11 @@
 <table>
 <thead><tr><th align="left">リポジトリ</th><th align="center"><sub>9/7</sub></th><th align="center"><sub>9/14</sub></th><th align="center"><sub>9/21</sub></th><th align="center"><sub>9/28</sub></th><th align="center"><sub>10/5</sub></th><th align="center"><sub>10/12</sub></th><th align="center"><sub>10/19</sub></th><th align="center"><sub>10/26</sub></th></tr></thead>
 <tbody>
-<tr><td><code>private repo</code></td><td align="center"><span title="2026-09-07 — 2026-09-13 · 0 件のコミット">·</span></td><td align="center"><span title="2026-09-14 — 2026-09-20 · 0 件のコミット">·</span></td><td align="center"><span title="2026-09-21 — 2026-09-27 · 0 件のコミット">·</span></td><td align="center"><span title="2026-09-28 — 2026-10-04 · 29 件のコミット">⬛</span></td><td align="center"><span title="2026-10-05 — 2026-10-11 · 16 件のコミット">⬛</span></td><td align="center"><span title="2026-10-12 — 2026-10-18 · 30 件のコミット">⬛</span></td><td align="center"><span title="2026-10-19 — 2026-10-25 · 27 件のコミット">⬛</span></td><td align="center"><span title="2026-10-26 — 2026-11-01 · 1 件のコミット">▫️</span></td></tr>
+<tr><td><code>private repo</code></td><td align="center"><span title="2026-09-07 — 2026-09-13 · 0 件のコミット">·</span></td><td align="center"><span title="2026-09-14 — 2026-09-20 · 0 件のコミット">·</span></td><td align="center"><span title="2026-09-21 — 2026-09-27 · 0 件のコミット">·</span></td><td align="center"><span title="2026-09-28 — 2026-10-04 · 29 件のコミット">⬛</span></td><td align="center"><span title="2026-10-05 — 2026-10-11 · 16 件のコミット">⬛</span></td><td align="center"><span title="2026-10-12 — 2026-10-18 · 30 件のコミット">⬛</span></td><td align="center"><span title="2026-10-19 — 2026-10-25 · 27 件のコミット">⬛</span></td><td align="center"><span title="2026-10-26 — 2026-11-01 · 8 件のコミット">⬛</span></td></tr>
 </tbody>
 </table>
 
-<sub>自動更新: 2026-10-29 UTC · 0 / 1 / 2–3 / 4–7 / 8+ commits</sub>
+<sub>自動更新: 2026-10-30 UTC · 0 / 1 / 2–3 / 4–7 / 8+ commits</sub>
 <!-- contribution-index:end -->
 
 ## 🌱 制作中の世界
